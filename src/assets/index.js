@@ -8,7 +8,8 @@
 */
 
 // Logo
-import bl33hIcon from './logo/bl33hIcon.png';
+import Slogo from './logo/Slogo.png';
+import SlogoWhite from './logo/SlogoWhite.png';
 
 // Technologies
 import htmlIcon from './tech/html.png';
@@ -61,5 +62,6 @@ export {
   calculator,
   memoryGame,
   avatar,
-  bl33hIcon,
+  Slogo,
+  SlogoWhite,
 };

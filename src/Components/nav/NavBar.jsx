@@ -12,7 +12,7 @@ import React, {useState } from 'react';
 import { Link } from 'react-router-dom';
 import {styles} from '../../styles';
 import { navLinks } from '../../Constants/constants';
-import { bl33hIcon, menu, close } from '../../assets';
+import { SlogoWhite, menu, close } from '../../assets';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -21,8 +21,8 @@ const Navbar = () => {
   return (
     <nav
       className={`
-      ${styles.paddingX} w-full flex items-center py-5
-      fixed top-0 z-20 bg-primary
+      ${styles.paddingX} w-full flex items-center py-5White
+      fixed top-0 z-20 bg-primary py-4
     `}
     >
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
@@ -34,7 +34,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={bl33hIcon} alt={bl33hIcon} className="w-18 h-9 object-contain" />
+          <img src={SlogoWhite} alt={SlogoWhite} className="w-18 h-9 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
           </p>
         </Link>
