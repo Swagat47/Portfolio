@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  extends: ["@react-native-community", "prettier", "plugin:react/recommended", "airbnb"],
+  extends: ["eslint:recommended", "@react-native-community", "prettier", "plugin:react/recommended", "airbnb"],
   overrides: [],
   parserOptions: {
     ecmaVersion: "latest",
