@@ -42,7 +42,14 @@ import {
   pawsitivePrototype,
   calculator,
   memoryGame,
+  ecommerce,
+  finance,
   avatar,
+  tailwindIcon,
+  sassIcon,
+  cplusplusIcon,
+  unityIcon,
+  arIcon,
 } from '../assets';
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -65,6 +72,11 @@ const media = {
   neoIcon,
   figmaIcon,
   avatar,
+  tailwindIcon,
+  sassIcon,
+  cplusplusIcon,
+  unityIcon,
+  arIcon,
 };
 
 const icons = {
@@ -114,31 +126,31 @@ const projects = [
   {
     name: "Finance Tracker",
     description: 'A memory game with an art theme implemented with React. Test your memory skills and enjoy beautiful artwork as you match pairs of cards in this engaging game.',
-    image: memoryGame,
-    source_code_link: 'https://github.com/bl33h/artMemoryGame',
-    demo_link: 'https://arasarmemory.netlify.app/',
+    image: finance,
+    source_code_link: 'https://github.com/vishwjeet-singh/finance-tracker',
+    demo_link: 'hello',
   },
   {
     name: 'E-commerce Website',
     description: 'Explore a user-friendly Figma prototype for an adoption and sterilization awareness website. Experience the sleek design and contribute to a noble cause.',
-    image: pawsitivePrototype,
-    source_code_link: 'https://github.com/bl33h/pawsitive',
-    demo_link: 'https://www.figma.com/proto/zhK8DMa7uPyQIcHxkemIcx/Pawsitive?type=design&node-id=40-2&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=40%3A2',
+    image: ecommerce,
+    source_code_link: 'https://github.com/Aditi0102/Kline',
+    demo_link: 'https://www.klinedecor.com/',
   },
   {
     name: 'ECE-Locker Website',
     description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
     image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
+    source_code_link: 'https://github.com/Swagat47/ECELocker',
+    demo_link: 'https://nith-ece-locker.netlify.app/login',
   },
-  {
-    name: 'NITH Placement Hub',
-    description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
-    image: calculator,
-    source_code_link: 'https://github.com/bl33h/calculator',
-    demo_link: 'https://bl33hscalculator.netlify.app/',
-  },
+  // {
+  //   name: 'NITH Placement Hub',
+  //   description: 'A completely functional basic calculator website created with React. It allows you to perform mathematical calculations effortlessly. With testing implemented, the results are accurate.',
+  //   image: calculator,
+  //   source_code_link: 'https://github.com/bl33h/calculator',
+  //   demo_link: 'https://bl33hscalculator.netlify.app/',
+  // },
 ];
 
 const memoji = {
@@ -161,6 +173,20 @@ const skills = [
     'I possess expertise in utilizing CSS to design web pages and craft visually captivating layouts that enhance the overall user experience.',
   },
   {
+    id: 'tailwind',
+    title: 'Tailwind CSS',
+    icon: tailwindIcon,
+    description:
+    'I am proficient in using Tailwind CSS to rapidly build modern user interfaces and streamline the development process.',
+  },
+  {
+    id: 'sass',
+    title: 'Sass',
+    icon: sassIcon,
+    description:
+    'I have experience in working with Sass to create reusable stylesheets and simplify the process of styling web pages.',
+  },
+  {
     id: 'javascript',
     title: 'JavaScript',
     icon: jsIcon,
@@ -175,26 +201,47 @@ const skills = [
       'I am well-versed in React, proficient in creating reusable components and managing application state using hooks and context.',
   },
   {
-    id: 'java',
-    title: 'Java',
-    icon: javaIcon,
+    id: 'unity',
+    title: 'Unity3D',
+    icon: unityIcon,
     description:
-      'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
+      'I have prior experience in working with Unity3D to create 2D and 3D games, implementing game mechanics and user interfaces.',
   },
   {
-    id: 'aws',
-    title: 'Amazon Web Services',
-    icon: awsIcon,
+    id: 'augmneted-reality',
+    title: 'Augmneted Reality',
+    icon: arIcon,
     description:
-      'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+      'Interest in Augmented Reality and Virtual Reality. I have prior experience in working with Unity3D and Google ARCore to create AR applications for Android devices.',
   },
   {
-    id: 'figma',
-    title: 'Figma',
-    icon: figmaIcon,
+    id: 'c++',
+    title: 'C++',
+    icon: cplusplusIcon,
     description:
-    'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+      'I have extensive experience utilizing C++ for object-oriented programming (OOP) and implementing data structures.',
   },
+  // {
+  //   id: 'java',
+  //   title: 'Java',
+  //   icon: javaIcon,
+  //   description:
+  //     'I have extensive experience utilizing Java for object-oriented programming (OOP) and implementing data structures.',
+  // },
+  // {
+  //   id: 'aws',
+  //   title: 'Amazon Web Services',
+  //   icon: awsIcon,
+  //   description:
+  //     'I am certified in AWS and proficient in working with EC2 and RDS instances, leveraging the power of cloud computing for scalable and reliable infrastructure.',
+  // },
+  // {
+  //   id: 'figma',
+  //   title: 'Figma',
+  //   icon: figmaIcon,
+  //   description:
+  //   'In my Figma skills, I unleash creativity, designing captivating user interfaces and collaborating seamlessly with designers and developers.',
+  // },
   {
     id: 'git',
     title: 'Git',
@@ -223,13 +270,13 @@ const skills = [
     description:
       'I have gained considerable experience working with Vite for approximately six months, leveraging its capabilities to build React websites and seamlessly deploy them on platforms like Netlify.',
   },
-  {
-    id: 'py',
-    title: 'Python',
-    icon: pyIcon,
-    description:
-      'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
-  },
+  // {
+  //   id: 'py',
+  //   title: 'Python',
+  //   icon: pyIcon,
+  //   description:
+  //     'With 3 years of Python experience, I am adept at coding functions and creating graphic interfaces using Tkinter.',
+  // },
   {
     id: 'node',
     title: 'Node',
@@ -237,27 +284,27 @@ const skills = [
     description:
       'When it comes to building web applications, I prefer using Node as my runtime environment over Yarn. I have expertise in leveraging Node.js to develop powerful and scalable web applications.',
   },
-  {
-    id: 'neo',
-    title: 'Neo4j',
-    icon: neoIcon,
-    description:
-      'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
-  },
-  {
-    id: 'raspi',
-    title: 'Raspberry Pi',
-    icon: raspIcon,
-    description:
-      'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
-  },
-  {
-    id: 'eslint',
-    title: 'Eslint',
-    icon: eslintIcon,
-    description:
-      'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
-  },
+  // {
+  //   id: 'neo',
+  //   title: 'Neo4j',
+  //   icon: neoIcon,
+  //   description:
+  //     'I am knowledgeable in Neo4j, the graph database management system. I have expertise in utilizing GraphOS to build robust recommendation systems, leveraging the strength of graph-based data modeling.',
+  // },
+  // {
+  //   id: 'raspi',
+  //   title: 'Raspberry Pi',
+  //   icon: raspIcon,
+  //   description:
+  //     'I have hands-on experience with Raspberry Pi, where I utilized a virtual Linux machine to execute programs written in assembly language. This allowed me to explore low-level computing and develop efficient code for the Raspberry Pi platform.',
+  // },
+  // {
+  //   id: 'eslint',
+  //   title: 'Eslint',
+  //   icon: eslintIcon,
+  //   description:
+  //     'I utilize ESLint to identify and resolve code issues, as well as standardize the structure of my projects. With ESLint, I ensure code quality and consistency throughout my development process.',
+  // },
 ];
 
 const markerSvg = `<svg viewBox="-4 0 36 36">

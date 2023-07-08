@@ -28,11 +28,18 @@ import pyIcon from './tech/py.png';
 import nodeIcon from './tech/node.webp';
 import neoIcon from './tech/neo.png';
 import raspIcon from './tech/raspi.png';
+import tailwindIcon from './tech/tailwind.png';
+import sassIcon from './tech/sass.png';
+import cplusplusIcon from './tech/cplusplus.png';
+import unityIcon from './tech/unity.png';
+import arIcon from './tech/ar.png';
 import close from './close.svg';
 import menu from './menu.svg';
 
 // Projects
 import pawsitivePrototype from './projects/pawsitive.jpeg';
+import ecommerce from './projects/kline-decor.png';
+import finance from './projects/finance-tracker.png';
 import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
 
@@ -58,9 +65,16 @@ export {
   viteIcon,
   neoIcon,
   raspIcon,
+  tailwindIcon,
+  sassIcon,
+  cplusplusIcon,
+  unityIcon,
+  arIcon,
   pawsitivePrototype,
   calculator,
   memoryGame,
+  ecommerce,
+  finance,
   avatar,
   Slogo,
   SlogoWhite,
