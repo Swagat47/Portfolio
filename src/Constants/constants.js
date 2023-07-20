@@ -44,7 +44,7 @@ import {
   memoryGame,
   ecommerce,
   finance,
-  avatar,
+  newAvatar,
   tailwindIcon,
   sassIcon,
   cplusplusIcon,

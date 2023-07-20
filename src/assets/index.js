@@ -44,7 +44,7 @@ import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
 
 // Avatar
-import avatar from './avatar/newAvatar.png';
+import newAvatar from './avatar/newAvatar.png';
 
 export {
   menu,
@@ -75,7 +75,7 @@ export {
   memoryGame,
   ecommerce,
   finance,
-  avatar,
+  newAvatar,
   Slogo,
   SlogoWhite,
 };
