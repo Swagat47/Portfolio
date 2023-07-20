@@ -71,7 +71,7 @@ const media = {
   raspIcon,
   neoIcon,
   figmaIcon,
-  avatar,
+  newAvatar,
   tailwindIcon,
   sassIcon,
   cplusplusIcon,
@@ -154,7 +154,7 @@ const projects = [
 ];
 
 const memoji = {
-  image: [avatar],
+  image: [newAvatar],
 };
 
 const skills = [
