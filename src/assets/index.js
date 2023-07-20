@@ -44,7 +44,7 @@ import calculator from './projects/calculator.jpg';
 import memoryGame from './projects/memory.jpg';
 
 // Avatar
-import avatar from './avatar/avatar.png';
+import avatar from './avatar/newAvatar.png';
 
 export {
   menu,
